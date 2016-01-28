@@ -1,0 +1,389 @@
+GIT
+  remote: git://github.com/Rezonans/jwt_authentication.git
+  revision: e0ec5e2c51566ed38a667636852d8a9322d03d83
+  tag: v0.0.5
+  specs:
+    jwt_authentication (0.0.5)
+      actionmailer (>= 3.2.6, < 5)
+      actionpack (>= 3.2.6, < 5)
+      devise (~> 3.2)
+      jwt (~> 1.2.1)
+
+GIT
+  remote: git://github.com/sars/angular-rails-templates.git
+  revision: a873ee33836d5cbb02e73dc2b6731ec5aab4c981
+  specs:
+    angular-rails-templates (0.1.4)
+      railties (>= 3.1)
+      sprockets
+      tilt
+
+GIT
+  remote: git://github.com/sars/angular-ui-select.git
+  revision: 0a9f4aa31b354660291fdad69304a3487a19df26
+  specs:
+    rails-assets-angular-ui-select (0.12.0)
+      rails-assets-angular (>= 1.2.18)
+
+GEM
+  remote: https://rubygems.org/
+  remote: https://rails-assets.org/
+  specs:
+    actionmailer (4.2.5)
+      actionpack (= 4.2.5)
+      actionview (= 4.2.5)
+      activejob (= 4.2.5)
+      mail (~> 2.5, >= 2.5.4)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+    actionpack (4.2.5)
+      actionview (= 4.2.5)
+      activesupport (= 4.2.5)
+      rack (~> 1.6)
+      rack-test (~> 0.6.2)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    actionview (4.2.5)
+      activesupport (= 4.2.5)
+      builder (~> 3.1)
+      erubis (~> 2.7.0)
+      rails-dom-testing (~> 1.0, >= 1.0.5)
+      rails-html-sanitizer (~> 1.0, >= 1.0.2)
+    active_model_serializers (0.8.3)
+      activemodel (>= 3.0)
+    activejob (4.2.5)
+      activesupport (= 4.2.5)
+      globalid (>= 0.3.0)
+    activemodel (4.2.5)
+      activesupport (= 4.2.5)
+      builder (~> 3.1)
+    activerecord (4.2.5)
+      activemodel (= 4.2.5)
+      activesupport (= 4.2.5)
+      arel (~> 6.0)
+    activesupport (4.2.5)
+      i18n (~> 0.7)
+      json (~> 1.7, >= 1.7.7)
+      minitest (~> 5.1)
+      thread_safe (~> 0.3, >= 0.3.4)
+      tzinfo (~> 1.1)
+    addressable (2.4.0)
+    arel (6.0.3)
+    autoprefixer-rails (6.3.1)
+      execjs
+      json
+    bcrypt (3.1.10)
+    binding_of_caller (0.7.2)
+      debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.6)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
+    builder (3.2.2)
+    byebug (8.2.1)
+    cancancan (1.13.1)
+    carrierwave (0.10.0)
+      activemodel (>= 3.2.0)
+      activesupport (>= 3.2.0)
+      json (>= 1.7)
+      mime-types (>= 1.16)
+    carrierwave-data-uri (0.0.2)
+      carrierwave
+    coffee-rails (4.1.1)
+      coffee-script (>= 2.2.0)
+      railties (>= 4.0.0, < 5.1.x)
+    coffee-script (2.4.1)
+      coffee-script-source
+      execjs
+    coffee-script-source (1.10.0)
+    database_cleaner (1.5.1)
+    debug_inspector (0.0.2)
+    devise (3.5.5)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      responders
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
+    erubis (2.7.0)
+    excon (0.45.4)
+    execjs (2.6.0)
+    factory_girl (4.5.0)
+      activesupport (>= 3.0.0)
+    factory_girl_rails (4.5.0)
+      factory_girl (~> 4.5.0)
+      railties (>= 3.0.0)
+    faker (1.6.1)
+      i18n (~> 0.5)
+    font-awesome-rails (4.5.0.0)
+      railties (>= 3.2, < 5.0)
+    globalid (0.3.6)
+      activesupport (>= 4.1.0)
+    haml (4.0.7)
+      tilt
+    hike (1.2.3)
+    i18n (0.7.0)
+    jbuilder (2.4.0)
+      activesupport (>= 3.0.0, < 5.1)
+      multi_json (~> 1.2)
+    jquery-rails (4.1.0)
+      rails-dom-testing (~> 1.0)
+      railties (>= 4.2.0)
+      thor (>= 0.14, < 2.0)
+    jquery-ui-rails (5.0.5)
+      railties (>= 3.2.16)
+    json (1.8.3)
+    jwt (1.2.1)
+    kaminari (0.16.3)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
+    launchy (2.4.3)
+      addressable (~> 2.3)
+    letter_opener (1.4.1)
+      launchy (~> 2.2)
+    loofah (2.0.3)
+      nokogiri (>= 1.5.9)
+    mail (2.6.3)
+      mime-types (>= 1.16, < 3)
+    mandrill-api (1.0.53)
+      excon (>= 0.16.0, < 1.0)
+      json (>= 1.7.7, < 2.0)
+    mandrill_mailer (1.2.0)
+      actionpack
+      activejob
+      activesupport
+      mandrill-api (~> 1.0.9)
+    mime-types (2.99)
+    mini_magick (4.2.7)
+    mini_portile2 (2.0.0)
+    minitest (5.8.4)
+    multi_json (1.11.2)
+    nested_form (0.3.2)
+    nokogiri (1.6.7.2)
+      mini_portile2 (~> 2.0.0.rc2)
+    orm_adapter (0.5.0)
+    polyamorous (1.3.0)
+      activerecord (>= 3.0)
+    quiet_assets (1.1.0)
+      railties (>= 3.1, < 5.0)
+    rack (1.6.4)
+    rack-pjax (0.8.0)
+      nokogiri (~> 1.5)
+      rack (~> 1.1)
+    rack-test (0.6.3)
+      rack (>= 1.0)
+    rails (4.2.5)
+      actionmailer (= 4.2.5)
+      actionpack (= 4.2.5)
+      actionview (= 4.2.5)
+      activejob (= 4.2.5)
+      activemodel (= 4.2.5)
+      activerecord (= 4.2.5)
+      activesupport (= 4.2.5)
+      bundler (>= 1.3.0, < 2.0)
+      railties (= 4.2.5)
+      sprockets-rails
+    rails-api (0.4.0)
+      actionpack (>= 3.2.11)
+      railties (>= 3.2.11)
+    rails-assets-angular (1.4.9)
+    rails-assets-angular-animate (1.4.9)
+      rails-assets-angular (= 1.4.9)
+    rails-assets-angular-bootstrap (1.1.1)
+      rails-assets-angular (>= 1.4.0)
+    rails-assets-angular-checklist-model (0.9.0)
+      rails-assets-angular (>= 1.0.8)
+    rails-assets-angular-mask (3.0.16)
+    rails-assets-angular-permission (1.1.1)
+      rails-assets-angular-ui-router (~> 0.2.11)
+    rails-assets-angular-sanitize (1.4.9)
+      rails-assets-angular (= 1.4.9)
+    rails-assets-angular-timer (1.3.3)
+      rails-assets-angular (>= 1.0.7)
+      rails-assets-humanize-duration (~> 2.8.0)
+      rails-assets-momentjs (~> 2.9.0)
+    rails-assets-angular-ui-event (1.0.0)
+      rails-assets-angular (>= 1.0.5)
+    rails-assets-angular-ui-indeterminate (1.0.0)
+      rails-assets-angular (>= 1.0.5)
+    rails-assets-angular-ui-mask (1.7.0)
+      rails-assets-angular (>= 1.3.6)
+    rails-assets-angular-ui-notification (0.1.0)
+    rails-assets-angular-ui-router (0.2.17)
+      rails-assets-angular (>= 1.0.8)
+    rails-assets-angular-ui-scroll (1.3.2)
+    rails-assets-angular-ui-scrollpoint (2.1.0)
+      rails-assets-angular (>= 1.0.5)
+    rails-assets-angular-ui-uploader (1.1.3)
+      rails-assets-angular (>= 1.0.5)
+    rails-assets-angular-ui-validate (1.2.2)
+      rails-assets-angular (>= 1.3.0)
+    rails-assets-bootstrap (3.3.6)
+      rails-assets-jquery (>= 1.9.1, < 3)
+    rails-assets-humanize-duration (2.8.0)
+    rails-assets-jquery (2.2.0)
+    rails-assets-lodash (4.0.1)
+    rails-assets-moment (2.11.1)
+    rails-assets-momentjs (2.9.0)
+    rails-assets-ngImgCrop (0.3.2)
+    rails-assets-ngInfiniteScroll (1.2.2)
+      rails-assets-angular (>= 1.2.0)
+    rails-assets-ngmap (1.16.7)
+    rails-assets-restangular (1.5.1)
+      rails-assets-angular (~> 1.0)
+      rails-assets-lodash (>= 1.3.0)
+    rails-assets-satellizer (0.11.3)
+      rails-assets-angular (>= 1.3.0, < 2)
+    rails-assets-ui-router (0.2.17)
+      rails-assets-angular (>= 1.0.8)
+    rails-assets-ui-utils (3.0.0)
+      rails-assets-angular-ui-event
+      rails-assets-angular-ui-indeterminate
+      rails-assets-angular-ui-mask
+      rails-assets-angular-ui-scroll
+      rails-assets-angular-ui-scrollpoint
+      rails-assets-angular-ui-uploader
+      rails-assets-angular-ui-validate
+    rails-deprecated_sanitizer (1.0.3)
+      activesupport (>= 4.2.0.alpha)
+    rails-dom-testing (1.0.7)
+      activesupport (>= 4.2.0.beta, < 5.0)
+      nokogiri (~> 1.6.0)
+      rails-deprecated_sanitizer (>= 1.0.1)
+    rails-html-sanitizer (1.0.3)
+      loofah (~> 2.0)
+    rails_admin (0.8.1)
+      builder (~> 3.1)
+      coffee-rails (~> 4.0)
+      font-awesome-rails (>= 3.0, < 5)
+      haml (~> 4.0)
+      jquery-rails (>= 3.0, < 5)
+      jquery-ui-rails (~> 5.0)
+      kaminari (~> 0.14)
+      nested_form (~> 0.3)
+      rack-pjax (~> 0.7)
+      rails (~> 4.0)
+      remotipart (~> 1.0)
+      safe_yaml (~> 1.0)
+      sass-rails (>= 4.0, < 6)
+    railties (4.2.5)
+      actionpack (= 4.2.5)
+      activesupport (= 4.2.5)
+      rake (>= 0.8.7)
+      thor (>= 0.18.1, < 2.0)
+    rake (10.5.0)
+    ransack (1.7.0)
+      actionpack (>= 3.0)
+      activerecord (>= 3.0)
+      activesupport (>= 3.0)
+      i18n
+      polyamorous (~> 1.2)
+    rdoc (4.2.1)
+      json (~> 1.4)
+    remotipart (1.2.1)
+    responders (2.1.1)
+      railties (>= 4.2.0, < 5.1)
+    safe_yaml (1.0.4)
+    sass (3.4.21)
+    sass-rails (5.0.4)
+      railties (>= 4.0.0, < 5.0)
+      sass (~> 3.1)
+      sprockets (>= 2.8, < 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+      tilt (>= 1.1, < 3)
+    sdoc (0.4.1)
+      json (~> 1.7, >= 1.7.7)
+      rdoc (~> 4.0)
+    slim (3.0.6)
+      temple (~> 0.7.3)
+      tilt (>= 1.3.3, < 2.1)
+    spring (1.6.2)
+    sprockets (2.12.4)
+      hike (~> 1.2)
+      multi_json (~> 1.0)
+      rack (~> 1.0)
+      tilt (~> 1.1, != 1.3.0)
+    sprockets-rails (2.3.3)
+      actionpack (>= 3.0)
+      activesupport (>= 3.0)
+      sprockets (>= 2.8, < 4.0)
+    sqlite3 (1.3.11)
+    temple (0.7.6)
+    thor (0.19.1)
+    thread_safe (0.3.5)
+    tilt (1.4.1)
+    turbolinks (2.5.3)
+      coffee-rails
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+    uglifier (2.7.2)
+      execjs (>= 0.3.0)
+      json (>= 1.8.0)
+    warden (1.2.4)
+      rack (>= 1.0)
+    web-console (2.3.0)
+      activemodel (>= 4.0)
+      binding_of_caller (>= 0.7.2)
+      railties (>= 4.0)
+      sprockets-rails (>= 2.0, < 4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  active_model_serializers (= 0.8.3)
+  angular-rails-templates!
+  bootstrap-sass (~> 3.3.5)
+  byebug
+  cancancan (~> 1.10)
+  carrierwave-data-uri
+  coffee-rails (~> 4.1.0)
+  database_cleaner
+  devise
+  factory_girl_rails
+  faker
+  jbuilder (~> 2.0)
+  jquery-rails
+  jwt_authentication!
+  kaminari
+  launchy
+  letter_opener
+  mandrill_mailer
+  mini_magick (= 4.2.7)
+  quiet_assets
+  rails (= 4.2.5)
+  rails-api
+  rails-assets-angular!
+  rails-assets-angular-animate!
+  rails-assets-angular-bootstrap!
+  rails-assets-angular-checklist-model!
+  rails-assets-angular-mask!
+  rails-assets-angular-permission!
+  rails-assets-angular-sanitize!
+  rails-assets-angular-timer!
+  rails-assets-angular-ui-notification!
+  rails-assets-angular-ui-select!
+  rails-assets-bootstrap
+  rails-assets-humanize-duration
+  rails-assets-lodash
+  rails-assets-moment
+  rails-assets-ngImgCrop
+  rails-assets-ngInfiniteScroll
+  rails-assets-ngmap
+  rails-assets-restangular (= 1.5.1)
+  rails-assets-satellizer (= 0.11.3)
+  rails-assets-ui-router
+  rails-assets-ui-utils
+  rails_admin
+  ransack
+  responders
+  sass-rails (~> 5.0)
+  sdoc (~> 0.4.0)
+  slim
+  spring
+  sprockets (~> 2.12.3)
+  sqlite3
+  turbolinks
+  uglifier (>= 1.3.0)
+  web-console (~> 2.0)
+
+BUNDLED WITH
+   1.10.6

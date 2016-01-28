@@ -1,0 +1,20 @@
+@import "assets/styles/vars";
+.post-container {
+  margin: 10px 20% 10px 20%;
+  background-color: #C3BFC1;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  margin: 0 0 20px 0;
+}
+
+a:hover {
+  color: $brand-primary !important;
+  transition: all 0.35s;
+  text-decoration: none;
+}

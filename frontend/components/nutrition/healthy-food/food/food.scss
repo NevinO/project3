@@ -1,0 +1,56 @@
+@import "assets/styles/vars";
+
+.food-page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.food-page-main {
+
+  h2 {
+    text-transform: uppercase;
+    color: $header-grey;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 15px;
+    display: block;
+    padding-bottom: 5px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 30px;
+      height: 3px;
+      background: $brand-primary;
+    }
+  }
+
+  h4, p {
+    color: $text;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h4 {
+    font-style: italic;
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 18px;
+    padding: 20px 5px;
+    border-bottom: 3px solid #E1E1E1;
+  }
+}
+
+.food-bar__header {
+  padding: 10px;
+  border-left: 3px solid $brand-primary;
+  text-transform: uppercase;
+  color: $header-grey;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}

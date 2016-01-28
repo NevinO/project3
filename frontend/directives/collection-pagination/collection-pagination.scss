@@ -1,0 +1,22 @@
+@import "assets/styles/vars";
+
+collection-pagination {
+  > .pagination {
+    > .disabled, > li {
+      > span, > a {
+        &, &:hover, &:focus {
+          border-color: $tabs-border-color;
+          font: 15px NeuzeitSLTBook, "Helvetica Neue", Helvetica, Arial, sans-serif;
+          color: $header-grey;
+        }
+      }
+    }
+  }
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover,
+.pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  color: #fff !important;
+  background-color: $brand-primary;
+  border-color: $brand-primary;
+}

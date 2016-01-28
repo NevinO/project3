@@ -1,0 +1,50 @@
+.billing-page
+  .container
+    .billing__returning-customer
+      .returning-customer__block
+        span> Постоянный клиент?
+        a ng-click="returningCustomer = !returningCustomer"  ng-disabled="" Нажмите здесь, чтобы войти
+      .returning-customer__form ng-show="returningCustomer"
+        span Если вы покупали у нас прежде, пожалуйста, введите свои данные в полях ниже. Если вы являетесь новым клиентом,
+             пожалуйста, перейдите в раздел Детали заказа.
+        .container-fluid
+          .row
+            form.form-horizontal name="orderForm" ng-submit="loginProcessing()" novalidate="novalidate"
+              horizontal-form obj="loginObj" fields="loginFields" errors="errors" vertical="true"
+              button.btn.btn-cart.btn-lg.auth__submit type="submit" Войти
+
+
+    form.form-horizontal name="orderForm" ng-submit="oderProcessing()" novalidate="novalidate"
+      .row
+        .col-sm-7.billing-page__form
+          h3 Детали заказа
+          horizontal-form obj="billingInfo" fields="fields" errors="errors" vertical="true"
+        .col-sm-5
+          .billing__order-review
+            h3 Ваш заказ
+            table
+              thead
+                tr
+                  th Товар
+                  th Цена
+              tbody
+                tr ng-repeat="item in cart"
+                  td {{item.product.name}} X {{item.count}}
+                  td {{item.product.price*item.count | currency: "₴"}}
+              tfoot
+                tr
+                  th Доставка
+                  td Новая почта
+                tr
+                  th Всего
+                  td {{priceTotal | currency: "₴"}}
+            label
+              input type="checkbox" ng-true-value="true" ng-model="billingInfo.c_o_d"
+              span Наложенный платеж
+            br
+            label
+              input type="checkbox" ng-true-value="true" ng-model="billingInfo.online_pay"
+              span Безналичный расчет
+            .col-sm-offset-2.col-sm-8
+              button.btn.btn-primary.btn-lg.auth__submit type="submit" оформить заказ
+            .clearfix

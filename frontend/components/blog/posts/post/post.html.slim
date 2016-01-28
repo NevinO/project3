@@ -1,0 +1,18 @@
+.post-page
+  .container
+    .row
+      .col-sm-9
+        .post-head__header
+          h2 {{currentPost.header}}
+          h5 {{currentPost.short_description}}
+        .post_main__img
+          img.img-responsive src="{{currentPost.image_url}}"
+        .post_body
+          p {{currentPost.post_description}}
+        post-comments comments="currentPost.comments" current-user="currentUser"
+      .col-sm-3
+        .blog-bar-categories рекомендуемые
+        recommended-bar resources="recommendedPosts" link="app.blog.post({ id: resource.id })"
+        .blog-bar-categories продукты
+        recommended-products resources="recommendedProducts" link="app.shop.product({ id: resource.id})"
+        .clearfix

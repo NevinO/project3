@@ -1,0 +1,26 @@
+.method-page {
+  text-align: center;
+
+  .social-button__wrapper {
+    display: inline-block;
+
+    button {
+      display: block;
+      margin: 30px auto;
+      width: 100%;
+    }
+  }
+}
+
+.method-page, .login-page, .sign-up__page {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.login-page .social-buttons-block {
+  padding: 30px;
+}
+
+.social-buttons-block__icon {
+  margin-right: 5px;
+}

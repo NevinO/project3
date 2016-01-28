@@ -1,0 +1,10 @@
+@import "assets/styles/vars";
+
+.blog-bar-categories {
+  padding: 10px;
+  border-left: 3px solid $brand-primary;
+  text-transform: uppercase;
+  color: $header-grey;
+  font-family: 'Play', sans-serif;
+  font-weight: bold;
+}
